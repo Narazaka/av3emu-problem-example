@@ -8,6 +8,9 @@
     },
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29"
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.7"
     }
   },
   "locked": {
@@ -24,6 +27,12 @@
     "com.vrchat.core.vpm-resolver": {
       "version": "0.1.29",
       "dependencies": {}
+    },
+    "lyuma.av3emulator": {
+      "version": "3.4.7",
+      "dependencies": {
+        "com.vrchat.avatars": "^3.1.0"
+      }
     }
   }
 }
